@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FlickrQuiz</string>
+    <string name="searchTxt">search</string>
+    <string name="searchVar">SEARCH</string>
+    <string name="detail">Note: Beacause of there are 100 items and loading problem this may take more than 5 minute</string>
+    <string name="authur">Written by By Kalim and Chhay Sokheng</string>
 </resources>
