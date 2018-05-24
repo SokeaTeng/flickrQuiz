@@ -44,6 +44,7 @@ class PhotoAdapter : RecyclerView.Adapter<PhotoAdapter.ViewHolder> {
                 .load(mData[position])
                 .thumbnail(0.1f)
                 .into(holder.imageView)
+
     }
 
     override fun getItemCount(): Int {
