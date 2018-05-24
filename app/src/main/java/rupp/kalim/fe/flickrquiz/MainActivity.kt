@@ -50,22 +50,21 @@ class MainActivity : AppCompatActivity() {
 
                         Log.d("image",photoList.get(i))
                     }
+
+                    viewManager = GridLayoutManager(this, 2)
+                    viewAdapter = PhotoAdapter(photoList, this)
+
+                    recyclerView.apply {
+                        setHasFixedSize(true)
+                        layoutManager = viewManager
+                        adapter = viewAdapter
+                    }
                 },
                 Response.ErrorListener {
                     Log.d("image","stop")
-
                 }
                 )
         mQueue.add(jsonObjectRequest)
-
-        viewManager = GridLayoutManager(this, 2)
-        viewAdapter = PhotoAdapter(photoList, this)
-
-        recyclerView.apply {
-            setHasFixedSize(true)
-            layoutManager = viewManager
-            adapter = viewAdapter
-        }
 
 
     }

@@ -12,7 +12,7 @@ class Photo {
         this.farmID = farm
         this.serverID = server
         this.secretID = secret
-        this.url = "https://farm$farm.staticflickr.com/$server/$id" + "_" + "${secret}_q.jpg"
+        this.url = "https://farm$farm.staticflickr.com/$server/$id" + "_" + "$secret.jpg"
     }
 
 }

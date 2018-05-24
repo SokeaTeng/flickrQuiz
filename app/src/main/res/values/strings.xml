@@ -2,6 +2,6 @@
     <string name="app_name">FlickrQuiz</string>
     <string name="searchTxt">search</string>
     <string name="searchVar">SEARCH</string>
-    <string name="detail">Note: Beacause of there are 100 items and loading problem this may take more than 5 minutes</string>
-    <string name="authur">Written by By Kalim and Chhay Sokheng</string>
+    <string name="detail">Note: Changes RecyclerView location from finish job of JSON parsing to after JSON Object Loop</string>
+    <string name="author">Written by By Kalim and Chhay Sokheng</string>
 </resources>

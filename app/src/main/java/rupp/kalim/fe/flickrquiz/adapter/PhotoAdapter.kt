@@ -32,7 +32,7 @@ class PhotoAdapter : RecyclerView.Adapter<PhotoAdapter.ViewHolder> {
     }
 
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PhotoAdapter.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view: View = LayoutInflater.from(parent.context)
                 .inflate(R.layout.item, parent, false)
 
